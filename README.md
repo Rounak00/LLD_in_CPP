@@ -3,7 +3,7 @@
 ## 🎯 Suggested Pattern Roadmap (with Java focus)
 
 ### 1. Creational Patterns – *How objects are created*
-- **Singleton** – Only one instance (and thread-safe in C++).
+- **Singleton**.
 - **Factory Method**
 - **Abstract Factory**
 - **Builder**
@@ -35,7 +35,7 @@
 
 ## ❓ Practice Questions based on interview
 
-1. SOLID Example in C++
+1. SOLID Example in Java
 2. Design Parking Lot
 3. Design Tic-Tac-Toe
 4. Design Elevator System
