@@ -1,6 +1,6 @@
-# LLD in CPP
+# LLD in Java
 
-## 🎯 Suggested Pattern Roadmap (with C++ focus)
+## 🎯 Suggested Pattern Roadmap (with Java focus)
 
 ### 1. Creational Patterns – *How objects are created*
 - **Singleton** – Only one instance (and thread-safe in C++).
@@ -59,3 +59,16 @@
 
 
 ---
+
+## 💡 Why LLD in Java (and not C++)
+
+While design patterns and LLD concepts are language-agnostic, **Java** offers:
+
+- **Richer standard libraries** for collections, concurrency, and networking — reduces boilerplate.
+- **Built-in memory management (Garbage Collection)** — lets you focus on design instead of manual memory handling.
+- **Widespread use in enterprise applications** — many LLD interview problems are expected in Java/Spring context.
+- **Better reflection and runtime type info** — simplifies implementing patterns like Factory, Proxy, or Observer.
+- **Clearer syntax for OOP** — compared to C++, fewer pitfalls with smart pointers, destructors, and object slicing.
+
+> **In short:** Java allows you to focus on **design**, not low-level memory and pointer management, making it ideal for demonstrating LLD skills in interviews.
+> PS : I give DSA interviews in **CPP** only
