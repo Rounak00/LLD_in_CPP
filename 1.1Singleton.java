@@ -59,3 +59,7 @@ public class Singleton {
         System.out.println("Hello from Singleton!");
     }
 }
+
+/*
+* as synchronized function is expensieve thats why we use 2 locks first check then synchronized then again check
+*/

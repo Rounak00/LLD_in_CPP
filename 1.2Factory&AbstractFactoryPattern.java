@@ -1,5 +1,5 @@
 //creation based on condition
-
+//Its prefere in factory pattern use a default Null Object for default behaviour
 
 //Factory 
 public interface Shape{
