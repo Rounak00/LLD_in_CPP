@@ -1,5 +1,29 @@
 //so for add new functionalities dont harm the class
 
+/*
+> What is double dispatch?
+
+Double dispatch means the method that runs depends on the runtime type of two objects:
+
+The object you call the method on.
+
+The parameter object.
+
+The Visitor pattern achieves this with two method calls:
+
+// Step 1: Call accept() on Shape object → dispatch based on Shape type
+shape.accept(visitor);
+
+// Step 2: Inside accept(), call visitor.visit(this) → dispatch based on Visitor and concrete Shape
+visitor.visit(this);
+
+
+So both types are considered:
+
+First dispatch: shape.accept(visitor) → chooses correct accept() implementation (Circle or Rectangle).
+
+Second dispatch: visitor.visit(this) → chooses correct visit() method in the visitor (visit(Circle) or visit(Rectangle)).
+*/
 // Step 1: Define the Visitor interface
 interface Visitor {
     void visit(Circle circle);
@@ -75,3 +99,5 @@ public class Main {
         }
     }
 }
+
+
