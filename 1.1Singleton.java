@@ -31,6 +31,7 @@ class Singleton{
     }
 }
 
+
 //Most optimiseid way specially whn used in multitreated
 public class Singleton {
 
@@ -62,4 +63,5 @@ public class Singleton {
 
 /*
 * as synchronized function is expensieve thats why we use 2 locks first check then synchronized then again check
+* volatile we use to prevent CPU reordering issue and cache of core's sync up issue
 */
