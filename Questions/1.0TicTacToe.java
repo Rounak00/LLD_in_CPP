@@ -150,7 +150,6 @@ public class TicTacToeGame {
 
         boolean noWinner = true;
         while(noWinner){
-
             //take out the player whose turn is and also put the player in the list back
             Player playerTurn = players.removeFirst();
 
