@@ -73,3 +73,10 @@ While design patterns and LLD concepts are language-agnostic, **Java** offers:
 > **In short:** Java allows you to focus on **design**, not low-level memory and pointer management, making it ideal for demonstrating LLD skills in interviews.
 
 > PS : I give DSA interviews in **CPP** only
+
+
+# HLD / General System Design
+
+## 💡 Topics
+
+## ❓ General Interview Questions
