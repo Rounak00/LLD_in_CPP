@@ -78,5 +78,31 @@ While design patterns and LLD concepts are language-agnostic, **Java** offers:
 # HLD / General System Design
 
 ## 💡 Topics
+1. Network Protocols - TCP, Websockets, Http
+2. Client Server vs Peer 2 peer architecture
+3. CAP Thoerem
+4. Microservices Patterns - > CQRS, SAGA, Strangler, Decomposition
+5. Scaling based on users
+6. SQL vs No-Sql
+7. Understand other microsvice topics -> Message queue, kafka, reverse proxy, CDN, Storage types, file types, cache, bloom filter
+8. Scale DB - Shrading, indexing, partitioning, replication/mirror, Leader election
 
 ## ❓ General Interview Questions
+1. Design Url Shortner
+2. Design Consistent hashing
+3. Back of the enevelop estimation
+4. design key value store
+5. Design whatsapp
+6. Design autocomplete system
+7. Design rate limiter
+8. Design notification system
+9. Design pastebin
+10. Design twitter
+11. Design dropbox
+12. Design instagram
+13. Design youtube
+14. Design Google drive
+15. Design web crawler
+16. Design News feed
+17. Design Ticket master
+18. Design near by firnds / yields
