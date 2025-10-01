@@ -1,0 +1,18 @@
+
+In network each device have many network layers but under them only two layers are important
+1. Application layer
+2. Transport Layer 
+
+Application Layer -> 
+   1. Client - Server protocols -> HTTP, FTP, SMTP, Web socket
+   2. Peer 2  Peer -> Web RTC
+
+Transport layer -> 
+   1. TCP -> Send data packedts with sequesnce with proper acknowldege
+   2. UDP -> Send data packets on spot no sequesnce also no acknowldege (Web RTC uses it)
+
+
+HTTP - 1 connection
+SMTP - uses with IMAP/POP3
+FTP - 2 Connections one control and one data [data send as non encrypted so its not secure and dont use mostly]
+Socket - Specially need when server talk to client

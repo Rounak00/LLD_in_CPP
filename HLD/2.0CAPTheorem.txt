@@ -1,0 +1,14 @@
+CAP -> Consistancy, Availability, Partition tolerance
+> All three cant be achieve only pair of two is possible at a time
+
+Consisitancy -> Assume A DB Nodes some data change then B DB Nodes data also need to change
+Availability -> All nodes should response
+Partition Tolerance -> If communication break betwween two DB then system will not down
+
+now let have an example we have B and C two DB nodes now scenarios
+1. AP -> B may return 4 and C may return 5
+2. CP -> a DB node will remove between B and C
+3. CA -> During communication break system will down
+
+
+Normally in real world scenario partitaion tolerance cant be compromised so mostly we have to choose between CP or AP
